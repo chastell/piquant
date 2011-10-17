@@ -2,8 +2,10 @@
 
 require 'json'
 require 'open-uri'
+require 'ostruct'
 
 require_relative 'piquant/configuration'
+require_relative 'piquant/dataset'
 
 module Piquant
 
