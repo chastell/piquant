@@ -7,8 +7,8 @@ require_relative 'piquant/configuration'
 
 module Piquant
 
-  def self.datasets_at url
-    Hash[JSON.parse(open(url).read)['data'].map { |ds| [ds['idef'], ds['name']] }]
+  def self.datasets
+    Hash[JSON.parse(open(Configuration.api_root).read)['data'].map { |ds| [ds['idef'], ds['name']] }]
   end
 
   Configuration.api_root = 'http://cecyf.megivps.pl/api/json/'

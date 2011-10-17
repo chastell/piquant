@@ -4,10 +4,10 @@ require_relative 'spec_helper'
 
 describe Piquant do
 
-  describe '.datasets_at' do
+  describe '.datasets' do
 
     it 'returns a Hash of dataset info about datasets available at the given URL' do
-      Piquant.datasets_at('http://cecyf.megivps.pl/api/json/').must_equal({
+      Piquant.datasets.must_equal({
         0 => 'Budżet centralny',
         1 => 'Środki europejskie',
         2 => 'Fundusze celowe i agencje narodowe',
