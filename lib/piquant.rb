@@ -3,14 +3,10 @@
 require 'json'
 require 'open-uri'
 
-class Piquant
+module Piquant
 
-  def initialize api_root
-    @api_root = api_root
-  end
-
-  def datasets
-    Hash[JSON.parse(open(@api_root).read)['data'].map { |ds| [ds['idef'], ds['name']] }]
+  def self.datasets_at url
+    Hash[JSON.parse(open(url).read)['data'].map { |ds| [ds['idef'], ds['name']] }]
   end
 
 end
