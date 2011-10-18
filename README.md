@@ -8,10 +8,12 @@ Piquant is quite useless for now.
 To do
 -----
 
-* retrieve datasets
 * retrieve views
 * retrieve issues
+* make `Piquant.datasets` return actual `Dataset`s
+* drop `Configuration` in favour of methods on `Piquant`
 * stub out HTTP traffic in specs
+* switch to Faraday?
 
 ---
 
