@@ -14,6 +14,7 @@ To do
 * drop `Configuration` in favour of methods on `Piquant`
 * stub out HTTP traffic in specs
 * switch to Faraday?
+* decouple specs from actual data
 
 ---
 
