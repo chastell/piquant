@@ -15,4 +15,16 @@ module Piquant describe Dataset do
     end
   end
 
+  describe '#views' do
+
+    it 'returns a Hash with information about this Dataset’s views' do
+      Dataset[1].views.must_equal({
+        0 => 'Budżet środków europejskich w układzie tradycyjnym',
+        1 => 'Budżet środków europejskich w układzie zadaniowym',
+        2 => 'Budżet środków europejskich w układzie instytucionalnym',
+      })
+    end
+
+  end
+
 end end
