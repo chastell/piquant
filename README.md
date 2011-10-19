@@ -10,7 +10,9 @@ To do
 
 * retrieve views
 * retrieve issues
+* come up with sane constructors (see `View.[]`)
 * make `Piquant.datasets` return actual `Dataset`s
+* make `Dataset#views` return actual `View`s
 * drop `Configuration` in favour of methods on `Piquant`
 * stub out HTTP traffic in specs
 * switch to Faraday?
