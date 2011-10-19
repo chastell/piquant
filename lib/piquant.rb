@@ -6,6 +6,7 @@ require 'ostruct'
 
 require_relative 'piquant/configuration'
 require_relative 'piquant/dataset'
+require_relative 'piquant/view'
 
 module Piquant
 
