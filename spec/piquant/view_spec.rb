@@ -11,7 +11,7 @@ module Piquant describe View do
       view.idef.must_equal 1
       view.long_description.must_be_nil
       view.name.must_equal 'Budżet środków europejskich w układzie zadaniowym'
-      view.description.must_equal 'Dane dotyczące środków europejskich na szczeblu centralnym'
+      view.description.must_equal 'Wydatki środków europejskich wpisane w strukturę budżetu zadaniowego'
     end
   end
 

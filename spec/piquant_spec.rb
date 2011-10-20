@@ -9,7 +9,7 @@ describe Piquant do
     it 'returns a Hash of dataset info about datasets available at the given URL' do
       Piquant.datasets.must_equal({
         0 => 'Budżet centralny',
-        1 => 'Środki europejskie',
+        1 => 'Budżet Środków Europejskich',
         2 => 'Fundusze celowe i agencje narodowe',
         3 => 'Narodowy Fundusz Zdrowia',
         4 => 'Europejski Fundusz Rozwoju Regionalnego',
